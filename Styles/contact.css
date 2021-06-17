@@ -1,0 +1,113 @@
+#section6 {
+    display: block;
+    /* margin: 0; */
+    padding: 70px 0px;
+    justify-content: center;
+    /* height: 100vh; */
+    box-sizing: border-box;
+    font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+font-family: 'Poppins', sans-serif;
+color: #232323;
+}
+
+#page6 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.contact {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+  
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 80%;
+  }
+  
+ 
+  
+  .contact-input {
+    /* border-radius: 70px; */
+    max-width: 100%;
+    width: 500px;
+    height: 50px;
+    border: none;
+    border: solid 1px grey;
+    font-size: 16px;
+    padding-top: 10px 12px 0px 0;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    background-color: white;
+    margin-bottom: 10px;
+    color: grey;
+  }
+  
+  #message {
+    height: 150px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .contact-heading {
+    margin-bottom: 30px;
+  }
+  .contact-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .contact-details-heading {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .description {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+  .contact-icon {
+    margin-right: 20px;
+    font-size: 2rem;
+  }
+  .details {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 65%;
+    margin-bottom: 50px;
+  }
+  .unite {
+    margin-left: 50px;
+  }
+  .num {
+    margin-left: 30px;
+  }
+  .button {
+     /* border-radius: 70px; */
+     max-width: 100%;
+     width: 500px;
+     height: 50px;
+     border: none;
+     border-bottom: solid 1px grey;
+     font-size: 16px;
+     padding-top: 10px 12px 0px 0;
+     font-family: "Roboto", sans-serif;
+     outline: none;
+     background-color: lightslategray;
+     margin-bottom: 10px;
+     color: white;
+  }
+  .button:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+  }
+  
+ 
