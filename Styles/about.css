@@ -4,7 +4,10 @@
   border-top: 5px solid #fff;
   background: #808080;
   color: #2a2a2a;
-  height: 90vh;
+  max-height: 90vh;
+  scrollbar-3dlight-color: lawngreen;
+  overflow-y: scroll;
+  /* overflow: hidden; */
 }
 
 #section2 {
